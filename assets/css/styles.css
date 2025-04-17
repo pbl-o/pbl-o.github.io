@@ -1,0 +1,114 @@
+
+.card>img{
+    height: 40vh;
+    object-fit: cover;
+    filter: grayscale(127);
+    border-radius:9px;
+    transition: .3s ease-in-out;
+}
+
+.card>img:hover{
+    filter: grayscale(0);
+    transform: scale(1.009);
+}
+
+.pbo-background.special{
+    background-image: url("../imgs/header.jpg");
+    background-attachment: fixed;
+    height:10vh;
+}
+
+.pbo-background-special{
+    background-image: url("../imgs/header.jpg");
+    background-attachment: fixed;
+    height:40vh;
+}
+
+.pbo-background{
+    background-image: url("../imgs/header2.png");
+    
+}
+
+.pbo-spacing{
+    letter-spacing: 10px;
+}
+
+.logo{
+    width: 22%;
+    opacity: 0;
+    object-position: cover;
+    transition: 1s ease-in-out;
+}
+
+.logo:hover{
+    opacity: 0.5;
+}
+
+.imagen-colaboracion:hover{
+
+    filter:invert(100%)
+
+}
+
+.hidden{
+ opacity: 0;
+}
+
+.hidden:hover{
+    opacity: 0.2;
+
+}
+
+i{
+    font-size: 10vh;
+    letter-spacing: 5rem;
+    transition: .5s ease-in-out;
+    opacity: .7;
+   
+}
+
+a i:hover{
+    font-size: 11vh;
+    opacity: 1;
+
+}
+
+
+
+
+@media (max-width: 800px){
+
+    
+.card>img{
+    height: 15rem;
+}
+
+.pbo-background.special{
+    height:15vh;
+}
+
+}
+
+
+@media (max-width: 700px){
+
+    
+    .card>img{
+        height: 25rem;
+    }
+    
+    .pbo-background.special{
+        height:15vh;
+    }
+
+
+    i{
+        font-size: 4vh;
+    }
+
+    a i:hover{
+        font-size:5vh;
+    }
+
+    
+    }
