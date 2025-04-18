@@ -1,4 +1,34 @@
 
+/*HEDAER*/
+
+header div img{
+    background-image: url("../imgs/header.jpg");
+    background-attachment: fixed;
+    background-position: cover;
+    height: 10rem;
+    filter: grayscale(127);
+    transition: .3s ease-in-out;
+}
+
+header div img:hover{
+    filter: grayscale(0);
+}
+
+.hidden-header-fit{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+header div h1{
+    opacity: 0.1;
+}
+
+
+
+/* //MAIN// */
+
+/*Card*/
 .card>img{
     height: 40vh;
     object-fit: cover;
@@ -12,8 +42,13 @@
     transform: scale(1.009);
 }
 
+/*Layouts ( Special Styling Settings)*/
+
+/* Background solids*/
+
 .pbo-background.special{
     background-image: url("../imgs/header.jpg");
+    object-fit: cover;
     background-attachment: fixed;
     height:10vh;
 }
@@ -33,78 +68,77 @@
     letter-spacing: 10px;
 }
 
-.logo{
-    width: 22%;
+/*Logo*/
+.logo{ 
     opacity: 0;
-    object-position: cover;
     transition: 1s ease-in-out;
 }
 
 .logo:hover{
-    opacity: 0.5;
+    
+    opacity: 0.3;
 }
 
 .imagen-colaboracion:hover{
-
+    transition: .8s ease-in-out;
     filter:invert(100%)
 
 }
 
+/* Transpareny - transitions*/
 .hidden{
  opacity: 0;
+ transition: .3s ease-in-out;
 }
 
 .hidden:hover{
-    opacity: 0.2;
+ opacity: 0.1;
 
 }
 
+/*Icons*/
 i{
     font-size: 10vh;
     letter-spacing: 5rem;
     transition: .5s ease-in-out;
-    opacity: .7;
-   
+    opacity: .7; 
 }
 
 a i:hover{
     font-size: 11vh;
     opacity: 1;
-
 }
 
+/*Sepcial Cursor*/
 .wait{
     cursor: wait;
 }
 
-
+/*Ajustes responsividad*/
 
 
 @media (max-width: 800px){
 
-    
-.card>img{
-    height: 15rem;
-}
+    .card>img{
+        height: 15rem;
+    }
 
-.pbo-background.special{
-    height:15vh;
-}
+    .pbo-background.special{
+        height:10vh;
+    }
 
 }
 
 
 @media (max-width: 700px){
-
     
     .card>img{
         height: 25rem;
     }
     
     .pbo-background.special{
-        height:15vh;
+        height:5vh;
     }
-
 
     i{
         font-size: 4.5vh;
@@ -113,6 +147,5 @@ a i:hover{
     a i:hover{
         font-size:5vh;
     }
-
     
-    }
+}
