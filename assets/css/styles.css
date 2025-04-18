@@ -134,15 +134,15 @@ a i:hover{
     }
     
     .pbo-background.special{
-        height:5vh;
+        height:6vh;
     }
 
     i{
-        font-size: 4.5vh;
+        font-size: 6vh;
     }
 
     a i:hover{
-        font-size:5vh;
+        font-size:7vh;
     }
     
 }
