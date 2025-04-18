@@ -1,4 +1,6 @@
 # pbl-o.github.io
+## Link directo a la web (CV):
+### https://pbl-o.github.io/
 ## Forks a colegas:
 ### 1. https://github.com/pbl-o/Tienda-de-papeleria
 ### 2. https://github.com/pbl-o/enderson-prueba.io
@@ -10,5 +12,5 @@
 
 ### Si no fuese posible acceder o los links, o hubiese cualquier cambio en la información anterior, se puede acceder a los screenshots de los commits y pulls anteriormente listados en el siguiente repostorio:
 ### https://github.com/pbl-o/info-adiciona-desafios
-#### (assets/imgs/ -> imagen requerida... )
+#### (assets/imgs/ -imagen requerida- )
  
