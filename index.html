@@ -9,15 +9,16 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Danfo&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lobster&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/styles.css">
-    <link rel="shortcut icon" href="./assets/imgs/logo1.png" type="image/x-icon">
+    <link rel="shortcut icon" href="./assets/imgs/logo.png" type="image/x-icon">
 </head>
 
-<body >
+<body>
 
-  <!--Nav-->
+    <!--
+  Nav
+  -->
   <nav class="navbar navbar-expand-lg bg-body-tertiary fw-bolder p-3">
     <div class="container-fluid">
-
       <a class="navbar-brand" href="/index.html">PBLO</a>
 
       <div class="text-end">
@@ -25,16 +26,12 @@
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-
           <div class="navbar-nav">
-            <a class="nav-link active" aria-current="page" href="/index.html">CV</a>
+            <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
             <a class="nav-link" href="./assets/pages/portafolio.html">Portafolio</a>
-            <a class="nav-link" href="./assets/pages/colab.html">Colaboraciones</a>
             <a class="nav-link" href="./assets/pages/contacto.html">Contacto</a>
           </div>
-
         </div>
 
       </div>
@@ -42,40 +39,45 @@
     </div>
   </nav>
 
-  <!-- Header -->
-  <hedaer class="container-fluid">
+  <header>
 
-    <div class="pbo-background-special px-3">
-      <h1 class="text-center text-light opacity-50 pbo-spacing p-3">-CV-</h1>
-      <img class="hidden hidden-header-fit img-fluid" src="./assets/imgs/header2.png" alt="">
-    </div>
+    <section>
 
-  </hedaer>
+        <div class="header-div invert">
+          <img class="hidden hdr-img" src="./assets/imgs/header2.png" alt="">
+        </div>
+      </section>
 
-  <!-- CV-->
-  <main>
 
-    <!-- Sobre Mí -->
-    <section class="container-fluid  pbo-background text-light">
+  </header>
+
+
+    <main>
+
+      <!-- Sobre Mí -->
+
+
+
+
+      <section class="container-fluid  menu-bkg text-light ">
 
         <div class="row row-cols-1 row-cols-lg-3 g-1">
 
           <div class="col"></div>
           
-           <div class="col">
+          <div class="col">
 
-              <div class="my-3">
-
-                  <h5 class="py-2">Pablo E. Díaz A.</h5>
-                  <h5 class="py-4">1989 Stgo. de Chile</h5>
-                  <p>Soy formado en música y estoy transicionando al mundo de las IT. 
-                    Mi experiencia con la tecnología está directamente relacionada 
-                    a mi profesión, en la relación con software de edición, ya sea de audio,
-                    imagen o video. Eventualmente, con software multiplataforma que aplican
-                    lógicas de programación para procesar muestras y sistematizar procesos creativos. 
-                  </p>
-        
-              </div>
+            <div class="my-3">
+              <h5 class="py-2">Pablo E. Díaz A.</h5>
+              <h5 class="py-4">1989 Stgo. de Chile</h5>
+              <p>Soy formado en música y estoy transicionando al mundo de las IT. 
+                Mi experiencia con la tecnología está directamente relacionada 
+                a mi profesión, en la relación con software de edición, ya sea de audio,
+                imagen o video. Eventualmente, con software multiplataforma que aplican
+                lógicas de programación para procesar muestras y sistematizar procesos creativos. 
+              </p>
+    
+            </div>
 
           </div>
 
@@ -83,50 +85,57 @@
 
         </div>
 
-    </section>
-
-    <!-- Credenciales -->
-    <section class="container-fluid pbo-background text-light pb-4">
-      <div class="row row-cols-1 row-cols-lg-3 g-1">
-
-        <div class="col"></div>
-          
-        <div class="col">
+      </section>
 
 
-            <div class="accordion accordion-flush" id="accordionFlushExample">
+      <section class="container-fluid menu-bkg text-light pb-4">
 
-                <!--Educación Formal-->
-                <div class="accordion-item ">
+        <div class="row row-cols-1 row-cols-lg-3 g-1">
+
+          <div class="col"></div>
+          <div class="col">
+
+            <div class=" py-4">
+
+
+              <div class="accordion accordion-flush" id="accordionFlushExample">
+                <div class="accordion-item">
                   <h2 class="accordion-header">
                     <button class="accordion-button collapsed fw-bolder bg-body-secondary border" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
                       Educación Formal
                     </button>
                   </h2>
                   <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                      <div class="accordion-body">
-        
-                        <ul>
-                          <li>
-                          <h5>Educación Escolar Básica</h5>
-                          <p> C. San Juan E.</p>
-                          </li>
-                          <li>
-                          <h5>Educación Escolar Media</h5>
-                          <p>C. San Juan E.</p>
-                          </li>
-                          <li>
-                          <h5>Educación Universitaria</h5>
-                          <h6>Licenciatura en Música: mención Composición</h6>
-                          <p>Instituto de Música (PUC)</p>
-                          </li>
-                        </ul>
-
-                      </div>
+                    <div class="accordion-body">
+      
+                      <ul>
+                        <li>
+                        <h5>Educación Escolar Básica</h5>
+                        <p> C. San Juan E.</p>
+                        </li>
+                        <li>
+                        <h5>Educación Escolar Media</h5>
+                        <p>C. San Juan E.</p>
+                        </li>
+                        <li>
+                        <h5>Educación Universitaria</h5>
+                        <h6>Licenciatura en Música: mención Composición</h6>
+                        <p>Instituto de Música (PUC)</p>
+                        </li>
+                        <li>
+                        <h5>Educación Universitaria</h5>
+                        <h6>Master Arte Sonoro</h6>
+                        <p>Universitat de Barcelona</p>
+                        </li>
+                        <li>
+                        <h5>Educación Universitaria</h5>
+                        <h6>MACV </h6>
+                        <p>VICARTE FCT-NOVA</p>
+                        </li>
+                      </ul>
+      
                   </div>
                 </div>
-
-                <!--Certificaciones-->
                 <div class="accordion-item">
                   <h2 class="accordion-header">
                     <button class="accordion-button collapsed fw-bolder bg-body-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
@@ -151,12 +160,11 @@
                         </li>
                       </ul>
       
+      
                     </div>
                   </div>
                 </div>
-
-                <!--Otras Habilidades-->
-                <div class="accordion-item">
+                <div class="accordion-item ">
                   <h2 class="accordion-header">
                     <button class="accordion-button collapsed fw-bolder bg-body-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
                       Otras habilidades
@@ -181,6 +189,8 @@
                             <li>HTML</li>
                             <li>CSS</li>
                             <li>Javascript</li>
+                            <li>Bootstrap</li>
+                            <li>Tailwind</li>
                             <li>React</li>
                             <li>Python</li>
                             <li>Streamlit</li>
@@ -196,76 +206,45 @@
                     </div>
                   </div>
                 </div>
-                
-            </div>
-      
-        </div>
-
-        <div class="col"></div>
-
-      </div>
-
-    </section>
-
-    <!-- Experiencia -->
-    <section class="container-fluid  text-light">
-
-        <div class="row row-cols-1 row-cols-lg-3 g-1">
-
-          <div class="col"></div>
-          
-          <div class="col">
-
-            <div class="py-5">
-              <p class="text-center">
-                <button class="btn btn-dark text-light fw-bolder" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
-                  Experiencia
-                </button>
-              </p>
-              <div class="collapse " id="collapseExample">
-                <div class="col">
-      
-                  <div class="card">
-                    <p class="text-dark p-4">No tengo experiencia profesional en lo relativo a la tecnología, mi experienca profesional es mayoritariamente como profesor de música (lectura musical, armonía, piano, estimulación temprana, etc...). <br> <br> No obstante, estoy interesado en aprender y ojalá incorprarme a este fascinante mundo laboral, y quizás incorprar estos nuevos conocimeintos a mi actual profesión.
-                    </p>
-                  </div>
-      
-                </div>
-      
               </div>
+      
+      
+      
             </div>
 
           </div>
-
           <div class="col"></div>
 
         </div>
 
-    </section>
+      </section>
 
-  </main>
-  
-  <!-- FOOTER-->
-  <footer class="container-fluid bg-body-tertiary text-dark fw-bolder position-absolute">
+    </main>
+
+    <!-- FOOTER-->
+
+    <footer class="container-fluid bg-body-tertiary text-dark fw-bolder p-2">
 
       <div class="text-center p-1">
-          <h3 class="py-3 pbo-spacing"> &copy; PBL-O</h3>
+          <h3 class="pb-5 pbo-spacing"> &copy; PBL-O</h3>
       
-          <div class="row row-cols-1 row-cols-lg-3 g-1">
-            <div class="col pb-3"><a class="pb-3 link-dark link-underline-opacity-0" href="https://github.com/pbl-o">Github</a></div>
-            <div class="col pb-3"><a class="pb-3 link-dark link-underline-opacity-0" href="./assets/pages/portafolio.html">Portafolio</a></div>
-            <div class="col pb-4"> <a class="pb-3 link-dark link-underline-opacity-0" href="./assets/pages/contacto.html">Contacto</a></div>
+          <div class="row row-cols-1 g-4 row-cols-md-3">
+            <div class="col"><a class="pt-3 link-dark link-underline-opacity-0" href="https://github.com/pbl-o">Github</a></div>
+            <div class="col"><a class="pt-3 link-dark link-underline-opacity-0" href="./assets/pages/portafolio.html">Portafolio</a></div>
+            <div class="col"><a class="pt-3 link-dark link-underline-opacity-0" href="./assets/pages/contacto.html">Contacto</a></div>
+             
+
+
           </div>
       
       </div>
-    
 
   </footer>
 
-  <!-- Bootstrap -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+    <!-- Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
     
-  <!-- Font Awesome -->
-  <script src="https://kit.fontawesome.com/5676575e2b.js" crossorigin="anonymous"></script>
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/5676575e2b.js" crossorigin="anonymous"></script>
 </body>
 </html>

@@ -1,166 +1,193 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Portafolio</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Danfo&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lobster&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../css/styles.css">
-    <link rel="shortcut icon" href="../imgs/logo1.png" type="image/x-icon">
-</head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portafolio</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Danfo&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lobster&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/styles.css" />
+  </head>
 
-<body>
+  <body>
+    <!--
+  Nav
+  -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary fw-bolder p-3">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/index.html">PBLO</a>
 
-  <!--Nav-->
-  <nav class="navbar navbar-expand-lg bg-body-tertiary fw-bolder p-3">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="/index.html">PBLO</a>
-
-      <div class="text-end">
-
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <a class="nav-link active" aria-current="page" href="/index.html">CV</a>
-            <a class="nav-link" href="./portafolio.html">Portafolio</a>
-            <a class="nav-link" href="./colab.html">Colaboraciones</a>
-            <a class="nav-link" href="./colab.html">Contacto</a>
+        <div class="text-end">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="/index.html"
+                >Home</a
+              >
+              <a class="nav-link" href="./portafolio.html">Portafolio</a>
+              <a class="nav-link" href="./contacto.html">Contacto</a>
+            </div>
           </div>
         </div>
-
       </div>
+    </nav>
 
-    </div>
-  </nav>
+    <header class="pb-4">
+      <div
+        class="cotnainer-fluid menu-bkg text-light text-center py-5 fw-bolder"
+      >
+        <h2>Portafolio</h2>
+        <p>En Esta sección están mis trabajos hasta la fecha</p>
+      </div>
+    </header>
 
-  <header class="mb-3">
-
-        <div class=" cotnainer-fluid pbo-background text-light text-center py-5 fw-bolder">
-            <h1>Portafolio</h1>
-            <p>En Esta sección están mis trabajos hasta la fecha</p>
-        </div>
-
-        <div class=" special pbo-background special mt-1">
-           <img class="card hidden-header-fit logo mx-auto" src="../imgs/logo.png" alt="">
-        </div>
    
-  </header>
 
-  <main>
-    
-    <!-- Portafolio: Galería -->
-    <section>
 
-        
-        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 mx-auto pb-4 ">
-              
+
+
+
+
+    <main class="pt-2">
+      <section>
+        <div
+          class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 mx-auto pb-4"
+        >
           <!-- Proyecto n° 1  -->
           <div class="col">
-
-            <div class="card p-2 wait">
-                  <img src="../imgs/des-html.png" class="card-img-top" alt="Foto del proyecto 1: HTML">
-                  <div class="card-body">
-                    <h5 class="card-title">CV - Primera versión</h5>
-                    <p class="card-text"> Primer ejercicio: elaboración de Plantilla de CV utilzando exclusivamente html.</p>
-                    <a href="https://pbl-o.github.io/d-html/" class="btn btn-dark fw-bolder">HTML</a>
-                  </div>
+            <div class="card p-2">
+              <img
+                src="../imgs/capa_gabiru.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Colectivo Gabirú</h5>
+                <p class="card-text">Collective Portafolio</p>
+                <a
+                  href="https://gabirucoletivo.github.io/"
+                  class="btn btn-dark fw-bolder"
+                  >Go to Page</a
+                >
+              </div>
             </div>
-
           </div>
-          
+
           <!-- Proyecto n° 2 -->
           <div class="col">
-
-            <div class="card p-2 wait">
-                  <img src="..//imgs/des-css.png" class="card-img-top" alt="Foto del proyecto 2: CSS">
-                  <div class="card-body">
-                    <h5 class="card-title">Lading Page - Tienda</h5>
-                    <p class="card-text">Elaboración de Landing page no-responsiva (desktop) con html y decorado con CSS.</p>
-                    <a href="https://pbl-o.github.io/d-css/" class="btn btn-dark fw-bolder">CSS</a>
-                  </div>
+            <div class="card p-2">
+              <img src="../imgs/O_som.png" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">O som que se esconde nos Torrões</h5>
+                <p class="card-text">Project's website</p>
+                <a
+                  href="https://somdetorrao.github.io/betatest/"
+                  class="btn btn-dark fw-bolder"
+                  >Go to Page</a
+                >
+              </div>
             </div>
-
           </div>
-          
+
           <!-- Proyecto n° 3 -->
           <div class="col">
-
-            <div class="card p-2 wait">
-                  <img src="..//imgs/des-flex.png" class="card-img-top" alt="Foto del proyecto 3: Flex">
-                  <div class="card-body">
-                    <h5 class="card-title">Maqueta - Iguanas</h5>
-                    <p class="card-text">Elaboración de maqueta basada en mockup (Adobe XD) emulando propieades con flexbox layout.</p>
-                    <a href="https://pbl-o.github.io/d-flex/" class="btn btn-dark fw-bolder">Flexbox</a>
-                  </div>
+            <div class="card p-2">
+              <img src="../imgs/PBO_capa.png" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">PBO</h5>
+                <p class="card-text">PBO's artist portfolio</p>
+                <a
+                  href="https://thepbo.github.io/"
+                  class="btn btn-dark fw-bolder"
+                  >Go to Page</a
+                >
+              </div>
             </div>
-
           </div>
-          
+
           <!-- Proyecto n° 4 -->
           <div class="col">
-
-            <div class="card p-2 wait ">
-                  <img src="../imgs/des-boot.png" class="card-img-top" alt="Foto del proyecto 4: Bootstrap">
-                  <div class="card-body">
-                    <h5 class="card-title">Cuppon</h5>
-                    <p class="card-text">Elaboración de maqueta basada en mockup (Adobe XD) emulando propieades mayoritariamente con bootstrap.</p>
-                    <a href="https://pbl-o.github.io/d-bootstrap/" class="btn btn-dark fw-bolder">Bootstrap</a>
-                  </div>
+            <div class="card p-2">
+              <img src="../imgs/des-boot.png" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Cuppon</h5>
+                <p class="card-text">Landing page Bootstrap exercise</p>
+                <a href="#" class="btn btn-dark fw-bolder">Go to Page</a>
+              </div>
             </div>
-
-          </div>
-          
-          <!-- Proyecto n° 5 -->
-          <div class="col">
-              
-            <div class="card p-2 wait">
-                  <img src="../imgs/des-git.png" class="card-img-top" alt="Foto del proyecto 5: Github">
-                  <div class="card-body">
-                    <h5 class="card-title">Fork</h5>
-                    <p class="card-text">Ejercicios de Github, modificación de repositorio con herramientas adquiridas (HTML, CSS, Bootstrap).</p>
-                    <a href="https://pbl-o.github.io/d-github/" class="btn btn-dark fw-bolder">Github</a>
-                  </div>
-            </div>
-
           </div>
 
           <!-- Proyecto n° 5 -->
           <div class="col">
-              
-            <div class="card p-2 imagen-colaboracion wait">
-                  <img src="../imgs/header.jpg" class="card-img-top" alt="Foto de portada proyecto 6: Colaboraciones ">
-                  <div class="card-body">
-                    <h5 class="card-title">Colaboraciones</h5>
-                    <p class="card-text">Espacio pensado para colocar proyectos, versiones de proyectos o trabajos elaborados colaborativamente.</p>
-                    <a href="./colab.html" class="btn btn-dark fw-bolder">Colaboraciones</a>
-                  </div>
+            <div class="card p-2">
+              <img
+                src="../imgs/Inmobiliaria.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Inmobiliaria</h5>
+                <p class="card-text">Rendering html elements using JS.</p>
+                <a
+                  href="https://pbl-o.github.io/arreglos-objetos/"
+                  class="btn btn-dark fw-bolder"
+                  >Go to Page</a
+                >
+              </div>
             </div>
-
           </div>
 
+          <!-- Proyecto n° 5 -->
+          <div class="col">
+            <div class="card p-2">
+              <img
+                src="../imgs/pianostore.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">The Piano Store</h5>
+                <p class="card-text">Landing page animated with CSS</p>
+                <a href="#" class="btn btn-dark fw-bolder">Go to Page</a>
+              </div>
+            </div>
+          </div>
         </div>
+      </section>
+    </main>
 
-    </section>
-
-  </main>
-
-
-  <!-- FOOTER-->
-  <footer class="container-fluid bg-body-tertiary text-dark fw-bolder">
+    <footer class="container-fluid bg-body-tertiary text-dark fw-bolder p-2">
 
       <div class="text-center p-1">
-          <h3 class="py-3 pbo-spacing"> &copy; PBL-O</h3>
+          <h3 class="pb-5 pbo-spacing"> &copy; PBL-O</h3>
       
-          <div class="row row-cols-1 row-cols-lg-3 g-1">
-            <div class="col pb-3"><a class="pb-3 link-dark link-underline-opacity-0" href="https://github.com/pbl-o">Github</a></div>
-            <div class="col pb-3"><a class="pb-3 link-dark link-underline-opacity-0" href="./assets/pages/portafolio.html">Portafolio</a></div>
-            <div class="col pb-4"> <a class="pb-3 link-dark link-underline-opacity-0" href="./assets/pages/contacto.html">Contacto</a></div>
+          <div class="row row-cols-1 g-4 row-cols-md-3">
+            <div class="col"><a class="pt-3 link-dark link-underline-opacity-0" href="https://github.com/pbl-o">Github</a></div>
+            <div class="col"><a class="pt-3 link-dark link-underline-opacity-0" href="./assets/pages/portafolio.html">Portafolio</a></div>
+            <div class="col"><a class="pt-3 link-dark link-underline-opacity-0" href="./assets/pages/contacto.html">Contacto</a></div>
+             
+
+
           </div>
       
       </div>
@@ -168,9 +195,16 @@
   </footer>
 
     <!-- Bootstrap -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
-    
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+      crossorigin="anonymous"
+    ></script>
+
     <!-- Font Awesome -->
-    <script src="https://kit.fontawesome.com/5676575e2b.js" crossorigin="anonymous"></script>
-</body>
+    <script
+      src="https://kit.fontawesome.com/5676575e2b.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

@@ -1,148 +1,136 @@
-
-/*HEDAER*/
-
-header div img{
-    background-image: url("../imgs/header.jpg");
-    background-attachment: fixed;
-    background-position: cover;
-    height: 10rem;
-    filter: grayscale(127);
-    transition: .3s ease-in-out;
+.header-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('../imgs/header.jpg');
+    height: 30vh;
+    
 }
 
-header div img:hover{
-    filter: grayscale(0);
+/* header div para video */
+.header-div-lg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('../imgs/header.jpg');
+    height: 60vh;
+    
+}
+/*social*/
+.header-div-social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('../imgs/header.jpg');
+    height: 50vh;
+    
 }
 
-.hidden-header-fit{
-    height: 100%;
+.header-div img{
+    object-fit: cover;
     width: 100%;
-    object-fit: cover;
+    height: 30vh;
+}
+
+.menu-bkg{
+ background: url('../imgs/header2.png');
 }
 
 
-
-
-/* //MAIN// */
-
-/*Card*/
-.card>img{
-    height: 40vh;
-    object-fit: cover;
-    filter: grayscale(127);
-    border-radius:9px;
+.card{
     transition: .3s ease-in-out;
+    filter: grayscale(0)
 }
 
-.card>img:hover{
-    filter: grayscale(0);
-    transform: scale(1.009);
-}
-
-/*Layouts ( Special Styling Settings)*/
-
-/* Background solids*/
-
-.pbo-background.special{
-    background-image: url("../imgs/header.jpg");
-    object-fit: cover;
-    background-attachment: fixed;
-    height:10vh;
-}
-
-.pbo-background-special{
-    background-image: url("../imgs/header.jpg");
-    background-attachment: fixed;
-    height:40vh;
-}
-
-.pbo-background{
-    background-image: url("../imgs/header2.png");
-    
-}
-
-.pbo-spacing{
-    letter-spacing: 10px;
-}
-
-/*Logo*/
-.logo{ 
-    opacity: 0;
-    transition: 1s ease-in-out;
-}
-
-.logo:hover{
-    
-    opacity: 0.3;
-}
-
-.imagen-colaboracion:hover{
-    transition: .8s ease-in-out;
-    filter:invert(100%)
+.card:hover{
+    filter: grayscale(100%);
 
 }
+.card>img{
+height: 40dvh;
+object-fit: cover;
+border-radius: 5px;
+object-position: 10% 10%;
+}
 
-/* Transpareny - transitions*/
+.social{
+    transition: transform .5s ease-in-out;
+}
+
+.social:hover{
+
+    transform: scale(.99) translateY(-10px);
+}
+
+.social i{
+    font-size: 3rem;
+    margin-left: .5rem;
+}
+
+.social .col{
+    padding: 2.5rem;
+    transition: all .5s ease-in-out;
+}
+
+.social .col:hover{
+    transform: translateY(-10px);
+    opacity: .9;
+}
+
+
+
 .hidden{
- opacity: 0;
- transition: .3s ease-in-out;
+transition: all .3s ease-in-out ;
+opacity: 0;
+filter: invert(0);
 }
 
 .hidden:hover{
- opacity: 0.1;
+opacity: .3;
 
 }
 
-/*Icons*/
-i{
-    font-size: 10vh;
-    letter-spacing: 5rem;
-    transition: .5s ease-in-out;
-    opacity: .7; 
+.hidden-vid{
+transition: all .3s ease-in-out ;
+opacity: 0;
+filter: invert(0);
 }
 
-a i:hover{
-    font-size: 11vh;
-    opacity: 1;
-}
-
-/*Sepcial Cursor*/
-.wait{
-    cursor: wait;
-}
-
-/*Ajustes responsividad*/
-
-
-@media (max-width: 800px){
-
-    .card>img{
-        height: 15rem;
-    }
-
-    .pbo-background.special{
-        height:10vh;
-    }
+.hidden-vid:hover{
+opacity: 1;
 
 }
+@media (min-width: 576px){
+    .social i{
+    font-size: 4rem;
+}
+    .social i{
+    margin-left: 3rem;
+}
+}
 
+@media (min-width: 767px){
+    .social i{
+    font-size: 6rem;
+}
+    .social i{
+    margin-left: 5rem;
+}
+}
+@media (min-width: 992px){
+    .header-div img{
+    object-position: 60% ;
+}
+.social i{
+    font-size: 7rem;
+}
+    .social i{
+    margin-left: 1rem;
+}
+}
 
-@media (max-width: 700px){
-    
-    .card>img{
-        height: 25rem;
-    }
-    
-    .pbo-background.special{
-        height:6vh;
-    }
-
-    i{
-        font-size: 6vh;
-    }
-
-    a i:hover{
-        font-size:7vh;
-    }
-    
+@media (min-width: 1200px){
+    .header-div img{
+    object-position: 60% 45% ;
+}
 }
