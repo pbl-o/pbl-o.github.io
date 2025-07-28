@@ -39,14 +39,16 @@
 
 .card{
     transition: .3s ease-in-out;
-    filter: grayscale(0)
+    filter: grayscale(0);
+
 }
 
 .card:hover{
     filter: grayscale(100%);
 
 }
-.card>img{
+.img-portfolio{
+width: 100%;
 height: 40dvh;
 object-fit: cover;
 border-radius: 5px;
