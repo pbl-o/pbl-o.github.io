@@ -5,7 +5,7 @@ document.addEventListener("mouseover", (e) => {
   console.log(e.target.className);
   switch (e.target.className) {
     case "fa-brands fa-linkedin":
-      socialMedia.innerHTML = `<a class='text-light text-decoration-none' href="">Linkedin Pablo D.</a>`;
+      socialMedia.innerHTML = `<a class='text-light text-decoration-none' href="">Linkedin</a>`;
       break;
     case "fa-brands fa-github":
       socialMedia.innerHTML = `<a class='text-light text-decoration-none' href="https://github.com/pbl-o">Pbl-o</a>`;
